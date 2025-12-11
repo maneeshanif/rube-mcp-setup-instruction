@@ -96,7 +96,7 @@ Save and restart Gemini CLI.
 Inside Gemini CLI:
 
 ```
-/tools
+/mcp list
 ```
 
 You should now see hundreds of Rube tools available.
@@ -107,15 +107,31 @@ You should now see hundreds of Rube tools available.
 
 Claude Code uses a local `.claude/*` MCP configuration folder.
 
-You simply run:
+### Step-by-Step Setup:
 
-```bash
-npx mcp-remote "https://rube.app/mcp"
-```
+1.  **Run the setup command in your terminal:**
+    ```bash
+    claude mcp add --transport http rube -s user "https://rube.app/mcp"
+    ```
 
-This installs Rube as a local MCP server entry for Claude.
+2.  **Open Claude Code and run the MCP command:**
+    ```
+    /mcp
+    ```
 
-After installation:
+3.  **Select Rube:**
+    Choose **Rube** from the list and press Enter.
+
+4.  **Authenticate:**
+    Select the **Authenticate** option to start the login process.
+
+5.  **Complete Login:**
+    A browser window will open. Complete the authentication there.
+
+6.  **Ready to Go:**
+    Return to Claude Code. You are now ready to use 500+ apps with Rube!
+
+### After installation:
 
 1. Restart Claude Desktop
 2. Open **Tools** panel
@@ -142,7 +158,11 @@ Rube has a clean dashboard where you can connect apps.
 5. Click **Connect**
 6. Complete the OAuth permission popup
 
-After adding your apps:
+**Visual Guide:**
+
+![App Connection Dashboard](appconnection.png)
+
+### After adding your apps:
 
 * Rube automatically exposes their tools to Gemini CLI
 * Rube exposes them to Claude Code
@@ -162,6 +182,16 @@ Connect Firebase → Gemini CLI can now:
 * deploy hosting
 * manage Firestore
 * run auth scripts
+
+---
+
+## ℹ️ Need More Help?
+
+For additional help with connecting Rube to other clients, or for more detailed instructions regarding Claude CLI, please check the official guide.
+
+**Visit:** `rube.app/use-rube`
+
+![Use Rube Guide](userube.png)
 
 ---
 
