@@ -1,11 +1,11 @@
 Below is a clean, student-friendly **README** that explains Rube, what it offers, and how to integrate it with both **Gemini CLI** and **Claude Code**.
 It also includes a simple walkthrough on how to add apps inside Rube.
 
-You can copy-paste this directly into GitHub/Notion.
+
 
 ---
 
-# 🚀 Rube + MCP + AI Dev Tools — Student Guide
+# 🚀 Rube + MCP + AI Dev Tools 
 
 ### *Connect hundreds of apps to Gemini CLI and Claude Code using the Model Context Protocol (MCP)*
 
